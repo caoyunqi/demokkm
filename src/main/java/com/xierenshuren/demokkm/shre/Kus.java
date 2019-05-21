@@ -4,6 +4,16 @@ public class Kus {
      private int id;
      private String  name;
 
+     private Integer id_id;
+
+     public Integer getId_id() {
+          return id_id;
+     }
+
+     public void setId_id(Integer id_id) {
+          this.id_id = id_id;
+     }
+
      public double getPrice() {
           return price;
      }
